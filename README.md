@@ -21,5 +21,5 @@ npm i --uadate-binary
 
 ### 运行项目
 ```
-npm start
+npm run dev
 ```
