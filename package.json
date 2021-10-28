@@ -1,0 +1,37 @@
+{
+  "name": "koa2-mysql-seed",
+  "version": "1.0.0",
+  "description": "Koa2+Mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=koa* node bin/www",
+    "dev": "DEBUG=koa* NODE_ENV=development PORT=9000 nodemon bin/www",
+    "prd": "pm2 start bin/www"
+  },
+  "dependencies": {
+    "ejs": "2.3.3",
+    "koa": "2.7.0",
+    "koa-bodyparser": "4.2.1",
+    "koa-convert": "1.2.0",
+    "koa-json": "2.0.2",
+    "koa-logger": "3.2.0",
+    "koa-onerror": "4.1.0",
+    "koa-router": "7.4.0",
+    "koa-static": "5.0.0",
+    "koa-views": "6.2.0"
+  },
+  "devDependencies": {
+    "debug": "4.1.1",
+    "nodemon": "1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjudge/koa2-mysql-seed.git"
+  },
+  "author": "gradonday@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjudge/koa2-mysql-seed/issues"
+  },
+  "homepage": "https://github.com/vjudge/koa2-mysql-seed#readme"
+}
